@@ -1,0 +1,83 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #e8f5e9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Ekran yüksekliğinin en az 100vh olmasını sağlar */
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 20px 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 600px;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #388e3c;
+}
+
+p {
+    text-align: left;
+    line-height: 1.6;
+    margin: 10px 0;
+    font-size: 18px;
+    
+}
+
+button {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 20px 0;
+    background-color: #388e3c;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2e7d32;
+}
+
+#meal-photo {
+    max-width: 100%; /* Fotoğrafın maksimum genişliği %100 olsun */
+    height: auto; /* Orantılı bir şekilde boyutlandırma yapmak için */
+    border-radius: 8px; /* Kenarları yuvarlat */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Hafif bir gölge efekti ekle */
+    margin-bottom: 20px; /* Fotoğrafın altına boşluk ekleyerek diğer içerikten ayır */
+}
+
+strong {
+    color: #2e7d32; /* İstediğiniz renge değiştirebilirsiniz */
+    font-size: 18px;
+}
+
+#meal-info {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.meal-info-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px;
+}
+
+
+.hidden {
+    display: none;
+}
+

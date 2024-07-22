@@ -1,0 +1,125 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    
+    background-color: #e8f5e9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Ekran yüksekliğinin en az 100vh olmasını sağlar */
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 20px 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 80%; /* İçeriğin genişliğini belirleyin */
+    max-width: 400px; /* Maksimum genişliği belirleyin */
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #388e3c;
+}
+
+label {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0 5px;
+    display: block;
+    text-align: left;
+}
+
+select, button {
+    font-size: 18px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+button {
+    background-color: #388e3c;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2e7d32;
+}
+
+#meal-list {
+    margin-top: 20px;
+    padding: 0;
+    list-style-type: none;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#meal-list li {
+    background-color: #f1f8e9;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#meal-list li:hover {
+    background-color: #c5e1a5;
+}
+
+#diet-select {
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+#diet-select label {
+    display: flex;
+    align-items: center;
+}
+
+#diet-select label input[type="checkbox"] {
+    display: none; /* Checkbox'ları gizliyoruz */
+}
+
+#diet-select label span {
+    display: inline-block;
+    padding: 5px 10px;
+    
+    
+    border-radius: 5px;
+    cursor: pointer; /* İşaretçi stili */
+    transition: all 0.3s ease; /* Dönüşüm süresi ve geçiş tipi */
+}
+#diet-select label span:hover {
+    background-color:  #c5e1a5; /* Hover durumunda arka plan rengi */
+}
+/* Seçilen stil */
+#diet-select label input[type="checkbox"]:checked + span {
+    background-color: #388e3c; /* Yeşil tonunda arka plan rengi */
+    border-color: #388e3c; /* Yeşil tonunda kenarlık rengi */
+    color: #fff; /* Beyaz renk */
+}
+
+
+
+
+/* Seçilen stil */
+#diet-select label input[type="checkbox"]:checked + span {
+    background-color: #388e3c; /* Yeşil tonunda arka plan rengi */
+    border-color: #388e3c; /* Yeşil tonunda kenarlık rengi */
+    color: #fff; /* Beyaz renk */
+}
+
+

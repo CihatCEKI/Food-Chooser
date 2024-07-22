@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yemek Detayları</title>
+    <link rel="stylesheet" href="meal-details.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div id="meal-details">
+            <h2 id="meal-name"></h2>
+            <img id="meal-photo" src="" alt="Yemek Fotoğrafı">
+            <p><strong class="hidden">Kategori:</strong> <span id="meal-categories" class="hidden"></span></p>
+
+
+            <div id="meal-info">
+                <div class="meal-info-item">
+                    <p><strong>Hazırlık Süresi</strong></p>
+                    <p><span id="meal-preparation-time"></span> dakika</p>
+                </div>
+                <div class="meal-info-item">
+                    <p><strong>Pişirme Süresi</strong></p>
+                    <p><span id="meal-cooking-Time"></span> dakika</p>
+                </div>
+                <div class="meal-info-item">
+                    <p><strong>Kaç kişilik</strong></p>
+                    <p><span id="meal-person"></span></p>
+                </div>
+                <div class="meal-info-item">
+                    <p><strong>Kalori</strong></p>
+                    <p><span id="meal-calories"></span></p>
+                </div>
+            </div>
+            <p><strong>Diyet tercihi:</strong> <span id="meal-diet"></span></p>
+            
+            <p id="meal-materials-title"><strong>Malzemeler:</strong></p>
+            <p id="meal-materials"></p>
+            <p id="meal-recipe-title"><strong>Tarif:</strong></p>
+            <p id="meal-recipe"></p>
+        </div>
+        <button onclick="goBack()">Geri</button>
+    </div>
+    
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+
+        document.addEventListener('DOMContentLoaded', function() {
+            const selectedMealName = localStorage.getItem('selectedMeal');
+            fetch('meals.json')
+                .then(response => response.json())
+                .then(meals => {
+                    const selectedMeal = meals.find(meal => meal.isim === selectedMealName);
+
+                    if (selectedMeal) {
+                        const mealNameElement = document.getElementById('meal-name');
+                        const mealPhotoElement = document.getElementById('meal-photo');
+                        const mealCategoriesElement = document.getElementById('meal-categories');
+                        const mealPreparationTimeElement = document.getElementById('meal-preparation-time');
+                        const mealCookingTimeElement = document.getElementById('meal-cooking-Time');
+                        const mealPersonElement = document.getElementById('meal-person');
+                        const mealDietElement = document.getElementById('meal-diet');
+                        const mealCaloriesElement = document.getElementById('meal-calories');
+                        const mealMaterialsElement = document.getElementById('meal-materials');
+                        const mealRecipeElement = document.getElementById('meal-recipe');
+                        const mealMaterialsTitleElement = document.getElementById('meal-materials-title');
+                        const mealRecipeTitleElement = document.getElementById('meal-recipe-title');
+
+                        mealNameElement.textContent = selectedMeal.isim;
+                        mealPhotoElement.src = 'MealPhoto/' + selectedMeal.fotoğraf; // Fotoğrafın adının tam yolu buraya yerleştirin
+                        mealCategoriesElement.textContent = selectedMeal.katagoriler.join(', ');
+                        mealPreparationTimeElement.textContent = selectedMeal.hazırlanma_süresi;
+                        mealCookingTimeElement.textContent = selectedMeal.pişirme_süresi;
+                        mealPersonElement.textContent = selectedMeal.kişi;
+                        mealDietElement.textContent = selectedMeal.diyet.join(', ');
+                        mealCaloriesElement.textContent = selectedMeal.kalori;
+                        mealMaterialsElement.innerHTML = selectedMeal.malzemeler.replace(/\n/g, '<br>');
+                        mealRecipeElement.innerHTML = selectedMeal.tarif.replace(/\n/g, '<br>');
+
+                        // Malzemeler başlığını güncelle
+                        mealMaterialsTitleElement.innerHTML = `<strong>${selectedMeal.isim} için gerekli malzemeler:</strong>`;
+                        // Tarif başlığını güncelle
+                        mealRecipeTitleElement.innerHTML = `<strong>${selectedMeal.isim} Tarifi:</strong>`;
+                    }
+                })
+                .catch(error => console.error('Error fetching meal details:', error));
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,504 @@
+[
+    {
+        "isim": "Omlet",
+        "katagoriler": ["kahvaltı"],
+        "hazırlanma_süresi": 5,
+        "pişirme_süresi": 3,
+        "diyet": ["Yok"],
+        "kalori": 300,
+        "tarif": "1. Bir tavaya biraz yağ ekleyin ve ısıtın. \n2. Çırpılmış yumurtayı tavaya dökün.\n3. Üzerine istediğiniz malzemeleri ekleyin (peynir, domates, biber vb.).\n4. Altı pişene kadar bekleyin ve sonra omletinizi ters çevirin.\\n5. Diğer tarafını da pişirin ve servis yapın.",
+        "malzemeler":"2 yemek kaşığı sıvı yağ\n3 adet yeşil biber (Sap ve çekirdekleri temizledikten sonra, ince doğranmış\n3 orta boy domates\n1/2 (yarım) çay kaşığı tuz\n3 adet yumurta\nİsteğe bağlı: kaşar peyniri küçük bir kasenin yarısı kadar yeterli olur",
+        "fotoğraf": "omlet.jpg",
+        "kişi": "2"
+    },
+    {
+        "isim": "Menemen",
+        "katagoriler": ["kahvaltı"],
+        "hazırlanma_süresi": 20,
+        "pişirme_süresi": 20,
+        "diyet": ["Yok"],
+        "kalori": 250,
+        "malzemeler": "2 yemek kaşığı sıvı yağ\n3 adet yeşil biber (Sap ve çekirdekleri temizledikten sonra, ince doğranmış\n3 orta boy domates\n1/2 (yarım) çay kaşığı tuz\n3 adet yumurta\nİsteğe bağlı: kaşar peyniri küçük bir kasenin yarısı kadar yeterli olur",
+        "tarif": "1. Bir tavada biraz yağ ısıtın.\n2. Soğanları doğrayın ve tavada kavurun.\n3. Biberleri ekleyin ve kavurmaya devam edin.\n4. Domatesleri ekleyin ve pişirin.\n5. Çırpılmış yumurtayı ekleyin ve karıştırarak pişirin.\n6. Baharatları ekleyin ve servis yapın.",
+        "fotoğraf": "menemen.jpg",
+        "kişi":"2"
+    },
+    {
+        "isim": "Yoğurtlu Meyve Salatası",
+        "katagoriler": ["kahvaltı", "Atıştırmalık"],
+        "hazırlanma_süresi": 5,
+        "diyet": ["vejeteryan"],
+        "kalori": 150,
+        "tarif": "1. Bir kaseye yoğurt koyun.\n2. Üzerine doğranmış meyveleri ekleyin (muz, çilek, kivi vb.).\n3. Bal veya pekmez ile tatlandırın.\n4. İsteğe bağlı olarak üzerine biraz granola ekleyin.\n5. Karıştırın ve servis yapın.",
+        "fotoğraf": "Yoğurtlu Meyve Salatası.jpg"
+    },
+    {
+        "isim": "Sebzeli Krep",
+        "katagoriler": ["kahvaltı", "atıştırmalık"],
+        "hazırlanma_süresi": 20,
+        "diyet": ["vejeteryan"],
+        "kalori": 300,
+        "tarif": "1. Un, süt ve yumurtayı çırpın.\n2. Bir tavada biraz yağ ısıtın ve krep hamurunu dökün.\n3. Krepi pişirin ve diğer tarafını çevirin.\n4. Sebzeleri doğrayın ve krebin içine ekleyin.\n5. Krepin içine sebzeleri sararak servis yapın.",
+        "fotoğraf":"Sebzeli Krep.jpg"
+    },
+    {
+        "isim": "Elmalı Tarçınlı Yulaf Ezmesi",
+        "katagoriler": ["kahvaltı"],
+        "hazırlanma_süresi": 10,
+        "diyet": ["vegan"],
+        "kalori": 200,
+        "tarif": "1. Bir tencerede yulaf ezmesini süt veya su ile pişirin.\n2. Elmayı rendeleyin ve yulaf karışımına ekleyin.\n3. Tarçın ve bal ekleyin ve karıştırın.\n4. Kaseye alın ve üzerine ceviz serpin.\n5. Sıcak servis yapın.",
+        "fotoğraf":"Elmalı Tarçınlı Yulaf Ezmesi.jpg"
+    },
+    {
+        "isim": "Avokadolu Tost",
+        "katagoriler": ["kahvaltı", "Atıştırmalık"],
+        "hazırlanma_süresi": 5,
+        "diyet": ["vegan"],
+        "kalori": 250,
+        "tarif": "1. Ekmeği kızartın.\n2. Avokadoyu ezerek ekmeğin üzerine sürün.\n3. Tuz, karabiber ve limon suyu ekleyin.\n4. İsteğe bağlı olarak üzerine domates dilimleri ekleyin.\n5. Hemen servis yapın."
+    },
+    {
+        "isim": "Çikolatalı Muzlu Smoothie",
+        "katagoriler": ["içecek", "kahvaltı"],
+        "hazırlanma_süresi": 10,
+        "diyet": ["vejeteryan", "glutensiz"],
+        "kalori": 250,
+        "tarif": "1. Muzları dilimleyin.\n2. Bir blendera muz dilimlerini, sütü, kakao tozunu ve balı ekleyin.\n3. Pürüzsüz bir kıvam alana kadar karıştırın.\n4. Bir bardağa dökün ve hemen servis yapın."
+    },
+    {
+        "isim": "Mercimek Çorbası",
+        "katagoriler": ["çorba", "akşam yemeği"],
+        "hazırlanma_süresi": 30,
+        "diyet": ["vegan"],
+        "kalori": 200,
+        "tarif": "1. Bir tencerede biraz yağ ısıtın.\n2. Soğan, sarımsak ve havuçları doğrayın ve tencereye ekleyin.\n3. Mercimekleri ekleyin ve karıştırın.\n4. Üzerine su veya sebze suyu ekleyin ve kaynatın.\n5. Mercimekler yumuşayana kadar pişirin.\n6. Baharatları ekleyin ve blenderdan geçirin.\n7. Sıcak servis yapın."
+    },
+    {
+        "isim": "Tavuklu Sezar Salata",
+        "katagoriler": ["salata", "öğle yemeği"],
+        "hazırlanma_süresi": 20,
+        "diyet": ["glutensiz"],
+        "kalori": 350,
+        "tarif": "1. Tavuk göğsünü ızgarada pişirin ve dilimleyin.\n2. Marul yapraklarını doğrayın ve bir kaseye koyun.\n3. Üzerine tavuk dilimlerini ekleyin.\n4. Parmesan peyniri ve krutonları ekleyin.\n5. Sezar sosunu gezdirin ve karıştırın.\n6. Servis yapın."
+    },
+    {
+        "isim": "Izgara Somon",
+        "katagoriler": ["akşam yemeği"],
+        "hazırlanma_süresi": 25,
+        "diyet": ["glutensiz", "paleo"],
+        "kalori": 400,
+        "tarif": "1. Somon filetolarını zeytinyağı, tuz ve karabiberle marine edin.\n2. Izgarayı ısıtın ve somonları yerleştirin.\n3. Her iki tarafını da 7-8 dakika pişirin.\n4. Yanında ızgara sebzelerle servis yapın."
+    },
+    {
+        "isim": "Falafel",
+        "katagoriler": ["atıştırmalık", "öğle yemeği"],
+        "hazırlanma_süresi": 40,
+        "diyet": ["vegan"],
+        "kalori": 300,
+        "tarif": "1. Nohutları bir gece önceden ıslatın.\n2. Islanmış nohutları rondodan geçirin.\n3. Soğan, sarımsak, maydanoz ve baharatları ekleyin.\n4. Karışımdan küçük toplar yapın ve kızgın yağda kızartın.\n5. Humus veya yoğurt sosuyla servis yapın."
+    },
+    {
+        "isim": "Karnıyarık",
+        "katagoriler": ["akşam yemeği"],
+        "hazırlanma_süresi": 60,
+        "diyet": [],
+        "kalori": 500,
+        "tarif": "1. Patlıcanları ortadan yarın ve içlerini çıkarın.\n2. Bir tavada kıymayı, soğanı ve sarımsağı kavurun.\n3. Patlıcanların içine kıymalı harcı doldurun.\n4. Üzerine domates dilimleri koyun ve fırında pişirin.\n5. Sıcak servis yapın."
+    },
+    
+    {
+        "isim": "Caprese Salatası",
+        "katagoriler": ["salata", "atıştırmalık"],
+        "hazırlanma_süresi": 10,
+        "diyet": ["glutensiz", "vejeteryan"],
+        "kalori": 150,
+        "tarif": "1. Domatesleri ve mozarella peynirini dilimleyin.\n2. Bir tabakta domates ve peynir dilimlerini sırayla dizin.\n3. Üzerine taze fesleğen yaprakları ekleyin.\n4. Zeytinyağı ve balsamik sirke gezdirin.\n5. Tuz ve karabiberle tatlandırın ve servis yapın."
+    },
+    {
+        "isim": "Mantar Sote",
+        "katagoriler": ["yan yemek", "akşam yemeği"],
+        "hazırlanma_süresi": 15,
+        "diyet": ["vegan", "glutensiz"],
+        "kalori": 100,
+        "tarif": "1. Bir tavada biraz yağ ısıtın.\n2. Doğranmış mantarları tavaya ekleyin ve soteleyin.\n3. Sarımsak ve soya sosu ekleyin ve karıştırın.\n4. Mantarlar yumuşayana kadar pişirin.\n5. Üzerine taze maydanoz serpin ve servis yapın."
+    },
+    {
+        "isim": "Zeytinyağlı Enginar",
+        "katagoriler": ["yan yemek", "akşam yemeği"],
+        "hazırlanma_süresi": 45,
+        "diyet": ["vegan", "glutensiz"],
+        "kalori": 120,
+        "tarif": "1. Enginarları temizleyin ve limonlu suya koyun.\n2. Bir tencerede soğan ve havucu zeytinyağında kavurun.\n3. Enginarları tencereye ekleyin ve üzerine su ekleyin.\n4. Tuz, şeker ve limon suyu ekleyin.\n5. Enginarlar yumuşayana kadar pişirin ve soğuk servis yapın."
+    },
+    {
+        "isim": "Tavuk Fajita",
+        "katagoriler": ["akşam yemeği"],
+        "hazırlanma_süresi": 30,
+        "diyet": [],
+        "kalori": 400,
+        "tarif": "1. Tavuk göğsünü ince şeritler halinde kesin.\n2. Bir tavada biraz yağ ısıtın ve tavuğu ekleyin.\n3. Biber ve soğanları ince dilimleyin ve tavaya ekleyin.\n4. Baharatları ekleyin ve karıştırarak pişirin.\n5. Tortillaların içine tavuklu karışımı koyun ve servis yapın."
+    },
+    {
+        "isim": "Sebzeli Bulgur Pilavı",
+        "katagoriler": ["yan yemek", "akşam yemeği"],
+        "hazırlanma_süresi": 20,
+        "diyet": ["vegan"],
+        "kalori": 250,
+        "tarif": "1. Bir tencerede biraz yağ ısıtın.\n2. Soğan, biber ve domatesi doğrayın ve tencereye ekleyin.\n3. Bulgur ekleyin ve karıştırın.\n4. Üzerine su ekleyin ve kaynatın.\n5. Baharatları ekleyin ve suyu çekene kadar pişirin.\n6. Demlenmeye bırakın ve sıcak servis yapın."
+    },
+    {
+        "isim": "Sebzeli Kuskus",
+        "katagoriler": ["yan yemek", "akşam yemeği"],
+        "hazırlanma_süresi": 20,
+        "diyet": ["vegan"],
+        "kalori": 200,
+        "tarif": "1. Bir tencerede biraz yağ ısıtın.\n2. Soğan, havuç ve biberi doğrayın ve tencereye ekleyin.\n3. Kuskusu ekleyin ve karıştırın.\n4. Üzerine sebze suyu ekleyin ve kaynatın.\n5. Kuskus yumuşayana kadar pişirin.\n6. Baharatları ekleyin ve sıcak servis yapın."
+    },
+    {
+        "isim": "Çikolatalı Avokado Mousse",
+        "katagoriler": ["Tatlı"],
+        "hazırlanma_süresi": 10,
+        "diyet": ["vegan", "glutensiz"],
+        "kalori": 300,
+        "tarif": "1. Avokadoları soyun ve püre haline getirin.\n2. Kakao tozu, bal ve vanilya özü ekleyin.\n3. Pürüzsüz bir kıvam alana kadar karıştırın.\n4. Kaseye alın ve buzdolabında soğutun.\n5. Üzerine çikolata rendesi ekleyerek servis yapın."
+    },
+    {
+        "isim": "Yoğurtlu Kinoa Salatası",
+        "katagoriler": ["salata", "öğle yemeği"],
+        "hazırlanma_süresi": 20,
+        "diyet": ["vejeteryan", "glutensiz"],
+        "kalori": 250,
+        "tarif": "1. Kinoayı haşlayın ve soğutun.\n2. Salatalık, domates ve kırmızı soğanı doğrayın.\n3. Bir kasede yoğurt, limon suyu ve zeytinyağını karıştırın.\n4. Kinoa ve doğranmış sebzeleri yoğurtlu karışıma ekleyin.\n5. Tuz ve karabiber ekleyerek karıştırın ve servis yapın."
+    },
+    {
+        "isim": "Bezelye Çorbası",
+        "katagoriler": ["çorba"],
+        "hazırlanma_süresi": 30,
+        "diyet": ["vegan"],
+        "kalori": 150,
+        "tarif": "1. Bir tencerede biraz yağ ısıtın.\n2. Soğanı doğrayın ve tencereye ekleyin.\n3. Bezelye ve sebze suyunu ekleyin.\n4. Bezelyeler yumuşayana kadar pişirin.\n5. Blenderdan geçirerek pürüzsüz hale getirin.\n6. Tuz ve karabiber ekleyerek sıcak servis yapın."
+    },
+    {
+        "isim": "Karnabahar Pizza",
+        "katagoriler": ["akşam yemeği"],
+        "hazırlanma_süresi": 40,
+        "diyet": ["glutensiz"],
+        "kalori": 350,
+        "tarif": "1. Karnabaharı rendeleyin ve mikrodalgada yumuşatın.\n2. Yumurta, rendelenmiş peynir ve baharatları ekleyin.\n3. Karışımı pizza tabanı olarak tepsiye yayın.\n4. Önceden ısıtılmış fırında pişirin.\n5. Üzerine istediğiniz malzemeleri ekleyin ve tekrar fırınlayın.\n6. Dilimleyerek servis yapın."
+    },
+    {
+        "isim": "Havuçlu Kek",
+        "katagoriler": ["tatlı"],
+        "hazırlanma_süresi": 60,
+        "diyet": ["vejeteryan"],
+        "kalori": 400,
+        "tarif": "1. Havuçları rendeleyin.\n2. Bir kasede un, şeker, kabartma tozu ve tarçını karıştırın.\n3. Ayrı bir kasede yumurta, sıvı yağ ve vanilyayı çırpın.\n4. Kuru malzemeleri ekleyin ve karıştırın.\n5. Havuçları ekleyin ve tekrar karıştırın.\n6. Karışımı kek kalıbına dökün ve fırında pişirin.\n7. Soğuduktan sonra dilimleyerek servis yapın."
+    },
+    {
+        "isim": "Tavuklu Noodle",
+        "katagoriler": ["akşam yemeği"],
+        "hazırlanma_süresi": 20,
+        "diyet": [],
+        "kalori": 450,
+        "tarif": "1. Noodleları haşlayın ve süzün.\n2. Bir tavada tavuk göğsünü pişirin ve dilimleyin.\n3. Soğan, havuç ve biberi doğrayın ve tavada soteleyin.\n4. Noodle ve tavuk dilimlerini ekleyin.\n5. Soya sosu ve baharatları ekleyerek karıştırın.\n6. Sıcak servis yapın."
+    },
+    
+    {
+        "isim": "Yoğurtlu Sebzeli Makarna",
+        "katagoriler": ["öğle yemeği", "akşam yemeği"],
+        "hazırlanma_süresi": 20,
+        "diyet": ["vejeteryan"],
+        "kalori": 350,
+        "tarif": "1. Makarna haşlayın ve süzün.\n2. Bir tavada sebzeleri soteleyin.\n3. Yoğurt, sarımsak ve baharatları karıştırın.\n4. Makarna ve sebzeleri yoğurtlu karışıma ekleyin.\n5. Karıştırarak servis yapın."
+    },
+    {
+        "isim": "Karabuğday Pilavı",
+        "katagoriler": ["yan yemek"],
+        "hazırlanma_süresi": 25,
+        "diyet": ["vegan", "glutensiz"],
+        "kalori": 200,
+        "tarif": "1. Karabuğdayı yıkayın ve süzün.\n2. Bir tencerede yağ ısıtın ve soğanı doğrayın.\n3. Karabuğdayı tencereye ekleyin ve kavurun.\n4. Üzerine su ekleyin ve kaynatın.\n5. Baharatları ekleyin ve suyu çekene kadar pişirin.\n6. Demlenmeye bırakın ve sıcak servis yapın."
+    },
+    {
+        "isim": "Yeşil Smoothie",
+        "katagoriler": ["içecek", "kahvaltı"],
+        "hazırlanma_süresi": 5,
+        "diyet": ["vegan", "glutensiz"],
+        "kalori": 150,
+        "tarif": "1. Ispanak, muz, elma ve sütü blendera koyun.\n2. Pürüzsüz hale gelene kadar karıştırın.\n3. Bir bardağa dökün ve hemen servis yapın."
+    },
+    {
+        "isim": "Mango Salsa",
+        "katagoriler": ["atıştırmalık", "yan yemek"],
+        "hazırlanma_süresi": 10,
+        "diyet": ["vegan", "glutensiz"],
+        "kalori": 100,
+        "tarif": "1. Mangoyu doğrayın.\n2. Soğan, biber ve kişnişi ince doğrayın.\n3. Limon suyu ve tuz ekleyin.\n4. Karıştırarak servis yapın."
+    },
+    {
+        "isim": "Kuru Fasulye",
+        "katagoriler": ["akşam yemeği"],
+        "hazırlanma_süresi": 60,
+        "diyet": [],
+        "kalori": 350,
+        "tarif": "1. Kuru fasulyeleri bir gece önceden ıslatın.\n2. Bir tencerede yağ ısıtın ve soğanı doğrayın.\n3. Fasulyeleri ekleyin ve su ekleyerek kaynatın.\n4. Domates salçası ve baharatları ekleyin.\n5. Fasulyeler yumuşayana kadar pişirin.\n6. Sıcak servis yapın."
+    },
+    {
+        "isim": "Humus",
+        "katagoriler": ["meze", "atıştırmalık"],
+        "hazırlanma_süresi": 15,
+        "diyet": ["vegan", "glutensiz"],
+        "kalori": 200,
+        "tarif": "1. Nohutları haşlayın ve süzün.\n2. Bir blenderda nohut, tahin, limon suyu, sarımsak ve zeytinyağını karıştırın.\n3. Pürüzsüz hale gelene kadar karıştırın.\n4. Üzerine zeytinyağı gezdirerek servis yapın."
+    },
+    {
+        "isim": "Çikolatalı Kek",
+        "katagoriler": ["tatlı"],
+        "hazırlanma_süresi": 60,
+        "diyet": ["vejeteryan"],
+        "kalori": 450,
+        "tarif": "1. Un, şeker, kakao, kabartma tozu ve tuzu karıştırın.\n2. Ayrı bir kasede yumurta, süt ve yağı çırpın.\n3. Kuru malzemeleri ekleyin ve karıştırın.\n4. Karışımı kek kalıbına dökün ve fırında pişirin.\n5. Soğuduktan sonra dilimleyerek servis yapın."
+    },
+    {
+        "isim": "Fırında Patates",
+        "katagoriler": ["yan yemek"],
+        "hazırlanma_süresi": 40,
+        "diyet": ["vegan"],
+        "kalori": 200,
+        "tarif": "1. Patatesleri doğrayın ve bir kaseye koyun.\n2. Zeytinyağı, tuz ve baharatları ekleyin ve karıştırın.\n3. Patatesleri fırın tepsisine yayın.\n4. Önceden ısıtılmış fırında pişirin.\n5. Sıcak servis yapın."
+    },
+    {
+        "isim": "Zeytinyağlı Barbunya",
+        "katagoriler": ["yan yemek"],
+        "hazırlanma_süresi": 45,
+        "diyet": ["vegan"],
+        "kalori": 220,
+        "tarif": "1. Bir tencerede yağ ısıtın ve soğanı doğrayın.\n2. Barbunyayı ekleyin ve karıştırın.\n3. Domates, havuç ve patates ekleyin.\n4. Üzerine su ekleyin ve pişirin.\n5. Limon suyu ve baharatları ekleyerek servis yapın."
+    },
+    {
+        "isim": "Ton Balıklı Salata",
+        "katagoriler": ["salata", "öğle yemeği"],
+        "hazırlanma_süresi": 10,
+        "diyet": ["glutensiz"],
+        "kalori": 300,
+        "tarif": "1. Marul yapraklarını doğrayın ve bir kaseye koyun.\n2. Ton balığını ekleyin.\n3. Salatalık, domates ve kırmızı soğanı doğrayın.\n4. Zeytinyağı, limon suyu ve tuz ekleyin.\n5. Karıştırarak servis yapın."
+    },
+    {
+        "isim": "Sebzeli Tavuk Güveç",
+        "katagoriler": ["akşam yemeği"],
+        "hazırlanma_süresi": 60,
+        "diyet": [],
+        "kalori": 400,
+        "tarif": "1. Bir güveç kabında biraz yağ ısıtın.\n2. Tavuk göğsünü ve sebzeleri doğrayın.\n3. Tavukları ve sebzeleri güveç kabına ekleyin.\n4. Domates sosu ve baharatları ekleyin.\n5. Fırında pişirin ve sıcak servis yapın."
+    },
+    {
+        "isim": "Nohutlu Pilav",
+        "katagoriler": ["yan yemek"],
+        "hazırlanma_süresi": 30,
+        "diyet": ["vegan", "glutensiz"],
+        "kalori": 250,
+        "tarif": "1. Pilavlık pirinci yıkayın ve süzün.\n2. Bir tencerede yağ ısıtın ve pirinci kavurun.\n3. Nohutları ekleyin ve karıştırın.\n4. Üzerine su ekleyin ve pişirin.\n5. Pilav demlendikten sonra servis yapın."
+    },
+    {
+        "isim": "Yoğurtlu Cacık",
+        "katagoriler": ["yan yemek", "meze"],
+        "hazırlanma_süresi": 10,
+        "diyet": ["vejeteryan"],
+        "kalori": 100,
+        "tarif": "1. Salatalıkları rendeleyin.\n2. Yoğurt, su, sarımsak ve tuzu karıştırın.\n3. Salatalıkları yoğurtlu karışıma ekleyin.\n4. Nane ile süsleyerek servis yapın."
+    },
+    
+    {
+        "isim": "Kırmızı Mercimek Köftesi",
+        "katagoriler": ["atıştırmalık", "meze"],
+        "hazırlanma_süresi": 40,
+        "diyet": ["vegan"],
+        "kalori": 180,
+        "tarif": "1. Mercimekleri haşlayın ve süzün.\n2. Bulgur ekleyin ve karıştırın.\n3. Soğan, sarımsak ve baharatları ekleyin.\n4. Karışımdan küçük köfteler yapın.\n5. Marul yapraklarıyla servis yapın."
+    },
+    {
+        "isim": "Izgara Kabak",
+        "katagoriler": ["yan yemek"],
+        "hazırlanma_süresi": 15,
+        "diyet": ["vegan", "glutensiz"],
+        "kalori": 100,
+        "tarif": "1. Kabakları dilimleyin.\n2. Zeytinyağı, tuz ve karabiberle marine edin.\n3. Izgarada her iki tarafını pişirin.\n4. Sıcak servis yapın."
+    },
+    {
+        "isim": "Tavuklu Bulgur Pilavı",
+        "katagoriler": ["akşam yemeği"],
+        "hazırlanma_süresi": 30,
+        "diyet": [],
+        "kalori": 350,
+        "tarif": "1. Bir tencerede biraz yağ ısıtın.\n2. Tavuk göğsünü doğrayın ve kavurun.\n3. Soğan ve biber ekleyin ve soteleyin.\n4. Bulgur ekleyin ve karıştırın.\n5. Üzerine su ekleyin ve pişirin.\n6. Demlenmeye bırakın ve sıcak servis yapın."
+    },
+    {
+        "isim": "Fırında Kabak Mücver",
+        "katagoriler": ["atıştırmalık", "akşam yemeği"],
+        "hazırlanma_süresi": 40,
+        "diyet": ["vejeteryan"],
+        "kalori": 200,        "tarif": "1. Kabakları rendeleyin ve bir süzgece alın.\n2. Üzerine biraz tuz serpin ve suyunu süzün.\n3. Soğanı doğrayın ve kabakla karıştırın.\n4. Yumurta, un, maydanoz ve baharatları ekleyin.\n5. Karışımı yağlanmış fırın tepsisine dökün.\n6. Önceden ısıtılmış fırında pişirin ve sıcak servis yapın."
+    },
+    {
+        "isim": "Mantarlı Kaşarlı Tost",
+        "katagoriler": ["kahvaltı", "atıştırmalık"],
+        "hazırlanma_süresi": 10,
+        "diyet": ["vejeteryan"],
+        "kalori": 350,
+        "tarif": "1. Ekmek dilimlerini biraz ızgarada kızartın.\n2. Bir tavada mantarları soteleyin.\n3. Ekmek dilimlerinin üzerine mantarları ve rendelenmiş kaşarı ekleyin.\n4. Üstlerini kapatın ve tost makinesinde veya tavada pişirin.\n5. Sıcak servis yapın."
+    },
+    {
+        "isim": "Közlenmiş Patlıcan Salatası",
+        "katagoriler": ["meze", "atıştırmalık"],
+        "hazırlanma_süresi": 45,
+        "diyet": ["vejeteryan", "glutensiz"],
+        "kalori": 180,
+        "tarif": "1. Patlıcanları közleyin ve kabuklarını soyun.\n2. Bir kasede patlıcanları ezin.\n3. Sarımsak, limon suyu, zeytinyağı ve tuzu ekleyin.\n4. Karıştırarak servis yapın."
+    },
+    {
+        "isim": "Fırında Peynirli Makarna",
+        "katagoriler": ["akşam yemeği"],
+        "hazırlanma_süresi": 45,
+        "diyet": [],
+        "kalori": 400,
+        "tarif": "1. Makarnayı haşlayın ve süzün.\n2. Bir fırın kabına makarnayı koyun.\n3. Üzerine rendelenmiş peynir ve dilimlenmiş domates ekleyin.\n4. Üzerine zeytinyağı gezdirin ve karabiber serpin.\n5. Önceden ısıtılmış fırında pişirin ve sıcak servis yapın."
+    },
+    {
+        "isim": "Kahvaltılık Ekmek Pizza",
+        "katagoriler": ["kahvaltı"],
+        "hazırlanma_süresi": 15,
+        "diyet": ["vejeteryan"],
+        "kalori": 300,
+        "tarif": "1. Ekmek dilimlerini fırında hafifçe kızartın.\n2. Üzerlerine domates sosu sürün.\n3. Dilimlenmiş biber ve sucuk ekleyin.\n4. Üzerine rendelenmiş kaşar peyniri serpin.\n5. Fırında peynir eriyene kadar pişirin.\n6. Sıcak servis yapın."
+    },
+    {
+        "isim": "Çilekli Smoothie",
+        "katagoriler": ["içecek", "kahvaltı"],
+        "hazırlanma_süresi": 5,
+        "diyet": ["vejeteryan", "glutensiz"],
+        "kalori": 200,
+        "tarif": "1. Çilekleri yıkayın ve saplarını çıkarın.\n2. Bir blendera çilekleri, yoğurtu ve balı ekleyin.\n3. Pürüzsüz bir kıvam alana kadar karıştırın.\n4. Bir bardağa dökün ve hemen servis yapın."
+    },
+    {
+        "isim": "Fırında Levrek",
+        "katagoriler": ["akşam yemeği"],
+        "hazırlanma_süresi": 30,
+        "diyet": ["glutensiz"],
+        "kalori": 300,
+        "tarif": "1. Levrek balıklarını temizleyin ve yıkayın.\n2. Bir fırın tepsisine yağlı kağıt serin.\n3. Balıkları tepsiye yerleştirin.\n4. Üzerlerine zeytinyağı, limon suyu, tuz ve karabiber sürün.\n5. Önceden ısıtılmış fırında pişirin.\n6. Dilimlenmiş limon ile servis yapın."
+    },
+    
+    {
+        "isim": "Karnabahar Köftesi",
+        "katagoriler": ["atıştırmalık", "meze"],
+        "hazırlanma_süresi": 40,
+        "diyet": ["vejeteryan"],
+        "kalori": 200,
+        "tarif": "1. Karnabaharı haşlayın ve ezin.\n2. Soğanı doğrayın ve kavrulmuş karnabaharla karıştırın.\n3. Baharatları ve unu ekleyin.\n4. Köfte şekli verin ve kızgın yağda kızartın.\n5. Kağıt havlu üzerine alarak yağını süzün.\n6. Sıcak servis yapın."
+    },
+    {
+        "isim": "Çilekli Cheesecake",
+        "katagoriler": ["tatlı"],
+        "hazırlanma_süresi": 60,
+        "diyet": [],
+        "kalori": 400,
+        "tarif": "1. Bisküvileri rondodan geçirerek ufalayın.\n2. Eritilmiş tereyağını ekleyin ve karıştırın.\n3. Karışımı kek kalıbına bastırarak yerleştirin ve buzdolabında bekletin.\n4. Bir kapta krem peynir, şeker, vanilya özü ve limon suyunu çırpın.\n5. Hazırlanan karışımı bisküvili tabanın üzerine dökün.\n6. Üzerini streç filmle kapatın ve bir gece buzdolabında bekletin.\n7. Dilimleyerek çilek dilimleriyle süsleyerek servis yapın."
+    },
+    {
+        "isim": "Kabak Kızartması",
+        "katagoriler": ["yan yemek", "atıştırmalık"],
+        "hazırlanma_süresi": 25,
+        "diyet": ["vejeteryan", "glutensiz"],
+        "kalori": 180,
+        "tarif": "1. Kabakları dilimleyin.\n2. Bir kasede galeta unu, rendelenmiş parmesan peyniri ve baharatları karıştırın.\n3. Kabak dilimlerini bu karışıma bulayın.\n4. Yağlı kağıt serili fırın tepsisine dizin.\n5. Önceden ısıtılmış fırında altın rengini alana kadar pişirin.\n6. Sıcak servis yapın."
+    },
+    {
+        "isim": "Mantarlı Bulgur Pilavı",
+        "katagoriler": ["yan yemek", "akşam yemeği"],
+        "hazırlanma_süresi": 30,
+        "diyet": ["vejeteryan"],
+        "kalori": 250,
+        "tarif": "1. Mantarları dilimleyin ve bir tavada soteleyin.\n2. Bulguru yıkayın ve süzün.\n3. Bir tencerede biraz yağ ısıtın.\n4. Bulguru ekleyin ve kavurun.\n5. Üzerine sıcak su ekleyin ve kaynatın.\n6. Suyunu çekene kadar pişirin.\n7. Mantarları ekleyin ve karıştırarak servis yapın."
+    },
+    {
+        "isim": "Karnabahar Köftesi",
+        "katagoriler": ["atıştırmalık", "meze"],
+        "hazırlanma_süresi": 40,
+        "diyet": ["vejeteryan"],
+        "kalori": 200,
+        "tarif": "1. Karnabaharı haşlayın ve ezin.\n2. Soğanı doğrayın ve kavrulmuş karnabaharla karıştırın.\n3. Baharatları ve unu ekleyin.\n4. Köfte şekli verin ve kızgın yağda kızartın.\n5. Kağıt havlu üzerine alarak yağını süzün.\n6. Sıcak servis yapın."
+    },
+    {
+        "isim": "Çilekli Cheesecake",
+        "katagoriler": ["tatlı"],
+        "hazırlanma_süresi": 60,
+        "diyet": [],
+        "kalori": 400,
+        "tarif": "1. Bisküvileri rondodan geçirerek ufalayın.\n2. Eritilmiş tereyağını ekleyin ve karıştırın.\n3. Karışımı kek kalıbına bastırarak yerleştirin ve buzdolabında bekletin.\n4. Bir kapta krem peynir, şeker, vanilya özü ve limon suyunu çırpın.\n5. Hazırlanan karışımı bisküvili tabanın üzerine dökün.\n6. Üzerini streç filmle kapatın ve bir gece buzdolabında bekletin.\n7. Dilimleyerek çilek dilimleriyle süsleyerek servis yapın."
+    },
+    {
+        "isim": "Kabak Kızartması",
+        "katagoriler": ["yan yemek", "atıştırmalık"],
+        "hazırlanma_süresi": 25,
+        "diyet": ["vejeteryan", "glutensiz"],
+        "kalori": 180,
+        "tarif": "1. Kabakları dilimleyin.\n2. Bir kasede galeta unu, rendelenmiş parmesan peyniri ve baharatları karıştırın.\n3. Kabak dilimlerini bu karışıma bulayın.\n4. Yağlı kağıt serili fırın tepsisine dizin.\n5. Önceden ısıtılmış fırında altın rengini alana kadar pişirin.\n6. Sıcak servis yapın."
+    },
+    {
+        "isim": "Mantarlı Bulgur Pilavı",
+        "katagoriler": ["yan yemek", "akşam yemeği"],
+        "hazırlanma_süresi": 30,
+        "diyet": ["vejeteryan"],
+        "kalori": 250,
+        "tarif": "1. Mantarları dilimleyin ve bir tavada soteleyin.\n2. Bulguru yıkayın ve süzün.\n3. Bir tencerede biraz yağ ısıtın.\n4. Bulguru ekleyin ve kavurun.\n5. Üzerine sıcak su ekleyin ve kaynatın.\n6. Suyunu çekene kadar pişirin.\n7. Mantarları ekleyin ve karıştırarak servis yapın."
+    },
+    {
+        "isim": "Fırında Tavuk Baget",
+        "katagoriler": ["akşam yemeği"],
+        "hazırlanma_süresi": 50,
+        "diyet": [],
+        "kalori": 350,
+        "tarif": "1. Tavuk bagetleri yıkayın ve kurulayın.\n2. Bir karışım hazırlayın: zeytinyağı, rendelenmiş sarımsak, tuz, karabiber, kekik ve limon suyu.\n3. Tavukları bu karışımla ovun ve bir fırın tepsisine yerleştirin.\n4. Önceden ısıtılmış fırında altın rengine ve iç sıcaklığı ulaşana kadar pişirin.\n5. Sıcak servis yapın."
+    },
+    {
+        "isim": "Mevsim Salata",
+        "katagoriler": ["salata", "öğle yemeği"],
+        "hazırlanma_süresi": 15,
+        "diyet": ["vejeteryan", "glutensiz"],
+        "kalori": 200,
+        "tarif": "1. Marul, roka ve ıspanağı yıkayın ve doğrayın.\n2. Domatesleri dilimleyin.\n3. Salata tabağına doğranmış yeşillikleri ve domatesleri yerleştirin.\n4. Üzerine dilimlenmiş avokado ve rendelenmiş havuç ekleyin.\n5. Zeytinyağı ve limon suyu ile soslayarak servis yapın."
+    },
+    {
+        "isim": "Köz Patlıcanlı Humus",
+        "katagoriler": ["meze", "atıştırmalık"],
+        "hazırlanma_süresi": 45,
+        "diyet": ["vejeteryan", "glutensiz"],
+        "kalori": 220,
+        "tarif": "1. Patlıcanları közleyin, kabuklarını soyun ve püre haline getirin.\n2. Bir blenderda nohut, tahin, limon suyu, sarımsak ve zeytinyağını karıştırın.\n3. Pürüzsüz hale gelene kadar karıştırın.\n4. Üzerine közlenmiş patlıcan püresini ekleyin ve tekrar karıştırın.\n5. Zeytinyağı gezdirerek servis yapın."
+    },
+    
+    {
+        "isim": "Fırında Peynirli Patates",
+        "katagoriler": ["yan yemek"],
+        "hazırlanma_süresi": 50,
+        "diyet": ["vejeteryan"],
+        "kalori": 300,
+        "tarif": "1. Patatesleri yıkayın ve dilimleyin.\n2. Bir fırın kabına patates dilimlerini yerleştirin.\n3. Üzerlerine rendelenmiş kaşar peyniri serpin.\n4. Tuz, karabiber ve kekik ekleyin.\n5. Önceden ısıtılmış fırında patatesler yumuşayana ve peynirler eriyene kadar pişirin.\n6. Sıcak servis yapın."
+    },
+    {
+        "isim": "Yaprak Sarma",
+        "katagoriler": ["Atıştırmalık", "akşam yemeği"],
+        "hazırlanma_süresi": 40,
+        "pişirme_süresi": 45,
+        "diyet": ["vejeteryan", "vegan"],
+        "kalori": 564,
+        "tarif": "1. Sarmanın iç harcını hazırlamak için; yarım su bardağı zeytinyağını geniş tabanlı bir tencerede kızdırın. 3 adet rendelenmiş soğanı hafif renk alana kadar kavurun. Ardından üzerine 1,5 yemek kaşığı dolmalık fıstığı da  koyup kavurmaya devam edin.\n2. Ilık suda 5 dakika kadar bekletip suyunu süzdürdüğünüz 1,5 su bardağı pirinci soğanlarla birlikte, pirinçler şeffaf bir görünüm kazanana kadar kavurun.\\n3. Ardından sırasıyla; 1 yemek kaşığı kuş üzümü, 1'er çay kaşığı tuz, karabiber, yenibahar ve tarçın ekleyip karıştırın.\\n4. Yaklaşık 1 su bardağı sıcak suyu da ilave edin ve iç harcı kısık ateşte 5 dakika kadar pişirdikten sonra ocaktan alın.\\n5.Salamura asma yapraklarını tezgahın üzerinde damarlı kısımları üstte kalacak şekilde açın. Her bir yaprağın orta kısmına; hazırlayıp, ılıttığınız iç harçtan birer tatlı kaşığı kadar paylaştırın. \\n6.Kenar kısımlarını içe alıp, geniş kısmından uç kısmına doğru ilerleyin.",
+        "malzemeler":"300 gram asma yaprağı\n 1 adet limon\n 4 yemek kaşığı zeyinyağı\n İç Harcı için:\n 1/2 su bardağı zeytinyağı \n 3 adet orta boy kuru soğan \n 1,5 su bardağı pirinç\n 1 su bardağı sıcak su\n 1 çay kaşığı tuz,karabiber nane",
+        "fotoğraf": "Yaprak Sarma.jpg",
+        "kişi": "4"
+    }
+]
+
+
+       

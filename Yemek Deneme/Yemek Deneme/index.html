@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yemek Seçici</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Yemek Seçim Ekranına Hoşgeldiniz</h1>
+        <label for="meal-select">Bir öğün seçiniz:</label>
+        <select id="meal-select">
+            <option value="kahvaltı">Kahvaltı</option>
+            <option value="öğle yemeği">Öğle Yemeği</option>
+            <option value="akşam yemeği">Akşam Yemeği</option>
+            <option value="Atıştırmalık">Atıştırmalık</option>
+            <option value="Tatlı">Tatlı</option>
+        </select>
+
+        <label for="time-select">Hazırlık süresi seçiniz:</label>
+        <select id="time-select">
+            <option value="0-15">0 - 15 dakika</option>
+            <option value="15-30">15 - 30 dakika</option>
+            <option value="30+">30 dakikadan fazla</option>
+        </select>
+
+        <label for="diet-select">Diyet tercihi seçiniz:</label>
+<div id="diet-select">
+    <label><input type="checkbox" value="vegan"><span class="vegan">Vegan</span></label>
+    <label><input type="checkbox" value="vejeteryan"><span class="vejeteryan">Vejeteryan</span></label>
+    <label><input type="checkbox" value="glutensiz"><span class="glutensiz">Glutensiz</span></label>
+    <label><input type="checkbox" value="laktozsuz"><span class="laktozsuz">Laktozsuz</span></label>
+</div>
+
+        
+
+        <label for="calories-select">Kalori aralığı seçiniz:</label>
+        <select id="calories-select">
+            <option value="low">Düşük Kalorili (0 - 500)</option>
+            <option value="medium">Orta Kalorili (500 - 800)</option>
+            <option value="high">Yüksek Kalorili (800+)</option>
+        </select>
+
+        <button id="show-meals">Yemekleri Göster</button>
+        <ul id="meal-list"></ul>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
